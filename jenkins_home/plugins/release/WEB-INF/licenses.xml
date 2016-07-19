@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='release' version='2.5.4'>
+  <l:dependency name='Jenkins Release Plugin' groupId='org.jenkins-ci.plugins' artifactId='release' version='2.5.4' url='http://wiki.jenkins-ci.org/display/JENKINS/Release+Plugin'>
+    <l:description>Adds the ability to wrap your job with pre- and post- build steps which are only executed when a manual release build is triggered.</l:description>
+  </l:dependency>
+</l:dependencies>

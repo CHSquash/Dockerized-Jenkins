@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jenkins
+Build-Jdk: 1.7.0_79
+Extension-Name: groovy
+Implementation-Title: groovy
+Implementation-Version: 1.29
+Group-Id: org.jenkins-ci.plugins
+Short-Name: groovy
+Long-Name: Groovy
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Groovy+plugin
+Plugin-Version: 1.29
+Hudson-Version: 1.580.3
+Jenkins-Version: 1.580.3
+Plugin-Dependencies: token-macro:1.4;resolution:=optional
+Plugin-Developers: Vojtech Juranek:vjuranek:,Oliver Gondža:olivergond
+ za:ogondza@gmail.com
+

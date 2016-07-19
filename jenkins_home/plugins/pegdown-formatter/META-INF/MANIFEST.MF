@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: bap
+Build-Jdk: 1.6.0_24
+Extension-Name: pegdown-formatter
+Specification-Title: Format descriptions using PegDown Markdown syntax
+Implementation-Title: pegdown-formatter
+Implementation-Version: 1.3
+Group-Id: org.jenkins-ci.plugins
+Short-Name: pegdown-formatter
+Long-Name: PegDown Formatter Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/PegDown+Formatter+Plugin
+Plugin-Version: 1.3
+Hudson-Version: 1.396
+Jenkins-Version: 1.396
+Plugin-Developers: Bap:bap:bap-jenkins@BapIT.co.uk
+

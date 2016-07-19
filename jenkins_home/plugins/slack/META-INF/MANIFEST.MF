@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: sam
+Build-Jdk: 1.7.0_79
+Extension-Name: slack
+Specification-Title: A Build status publisher that notifies channels o
+ n a Slack team
+Implementation-Title: slack
+Implementation-Version: 1.8.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: slack
+Long-Name: Slack Notification Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Slack+Plugin
+Plugin-Version: 1.8.1
+Hudson-Version: 1.567
+Jenkins-Version: 1.567
+Plugin-Developers: Sam Gleske:sag47:sam.mxracer@gmail.com
+

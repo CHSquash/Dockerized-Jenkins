@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ovinn
+Build-Jdk: 1.8.0_25
+Extension-Name: modernstatus
+Specification-Title: A modern status icon set
+Implementation-Title: modernstatus
+Implementation-Version: 1.2
+Plugin-Class: org.jenkinsci.plugins.modernstatus.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Short-Name: modernstatus
+Long-Name: Modern Status
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Modern+Status+Plugin
+Plugin-Version: 1.2
+Hudson-Version: 1.440
+Jenkins-Version: 1.440
+Plugin-Developers: Oliver Vinn:ovinn:oliver@vinn.co.uk
+

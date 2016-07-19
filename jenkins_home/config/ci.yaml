@@ -1,0 +1,31 @@
+DockerContainer:
+  gitProjectTag: jenkins_git_integration
+  environmentName: DockerContainer
+  branch: master
+  isSourcePullSubmodules: true
+  isSourceCodeRequired: true
+  isTriggeredByWebhook: true
+  isTriggeredByUpstream: true
+  schedule: ""
+  jobPath: "\"CI/Containers/${project.namespace.name}/${project.name}\""
+  webhookUrlPath: "\"http://my.domain.com/api/v3/projects/${project.id}/hooks/?private_token=\""
+  branchListPath: "\"http://my.domain.com/api/v3/projects/${project.id}/repository/branches?&private_token=\""
+  upstreamUrlPath: "\"http://my.domain.com/api/v3/projects/${project.id}/repository/files?ref=master&file_path=.upstream&private_token=\""
+  folderDescription:
+    - |
+      """
+      This folder contains jenkins jobs for Docker images
+      add gitlab tag as `jenkins_git_integration`
+      """
+  projectDescription:
+    - |
+      """
+      CREATED BY DSL SEED JOB
+      """
+  buildNumToKeep: 9
+  slackChannel: "#test"
+  shellSteps:
+    - |
+      """
+      echo "true"
+      """
